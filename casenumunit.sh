@@ -1,27 +1,27 @@
-#!/bin/bash -x
-read -p "enter a single digit number : " a
+#!/bin/bash
+read -p "Enter a number : " a
      case "$a" in
-                $a/1==1) echo "ones"
+              1) echo "ones"
                         ;;
-                5) echo "one"
+             10) echo "tens"
                         ;;
-                2) echo "two"
+            100) echo "hundered"
                         ;;
-                3) echo "three"
+           1000) echo "thousand"
                         ;;
-                4) echo "four"
+          10000) echo "ten thousand"
                         ;;
-                5) echo "five"
+         100000) echo "lakh"
                         ;;
-                6) echo "six"
+        1000000) echo "ten lakh"
                         ;;
-                7) echo "seven"
+       10000000) echo "crore"
                         ;;
-                8) echo "eight"
+      100000000) echo "ten crore"
                         ;;
-                9) echo "nine"
+     1000000000) echo "hundered crore"
                         ;;
-                *) echo "not a single digit"
+              *) echo "Invalid number"
                         ;;
 
         esac
