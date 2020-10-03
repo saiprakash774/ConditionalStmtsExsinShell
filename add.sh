@@ -1,7 +1,7 @@
 #!/bin/bash -x
 
 
-read -p "Enter 1st number: " a
-read -p "Enter 2nd number: " b
-c=$(( $a + $b ))
+read -p "Enter 1st number: " x
+read -p "Enter 2nd number: " y
+c=$(( $x + $y ))
 echo $c
